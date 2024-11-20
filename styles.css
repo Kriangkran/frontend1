@@ -1,0 +1,122 @@
+h1 {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    background-color: hsl(0,100%,50%);
+    padding: 16px;
+    margin: 16px;
+    min-width: 12px;
+    height: 32px;
+    border-radius: 8px;
+    font-family: "Roboto", "Arial", sans-serif;
+    }
+
+body {
+    background-color:  rgb(17, 245, 229);
+}
+
+#primary-link {
+    font-size: 8px;
+}
+
+.text-white{
+    color: black;
+}
+
+.bodyhead {
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0,100%,50%);
+    border: 1px solid black;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+}
+
+.bodyIndex1 {
+    color: white;
+    display: inline-block;
+    min-width: 12px;
+    height: 32px;
+    background-color: black;
+    border: 1px solid black;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    margin: 12px;
+    border-radius: 8px;
+}
+
+
+.bodyIndex2 {
+    color: black;
+    display: inline-block;
+    min-width: 12px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    margin: 12px;
+    border-radius: 8px;
+    transition: all 0.9s;
+}
+
+.bodyIndex2:hover {
+    color: white;
+    display: inline-block;
+    min-width: 12px;
+    height: 32px;
+    background-color: black;
+    border: 1px solid black;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    margin: 12px;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.bodyIndex3 {
+    width: 100px;
+    height: 100px;
+    background-color: #FFCC33;
+    border: 1px solid black;
+}
+
+.bodyIndex4 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0,75%,50%);
+    border: 1px solid black;
+}
+
+.bodyIndex5 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0,50%,50%);
+    border: 1px solid black;
+}
+
+.bodyIndex6 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0,25%,50%);
+    border: 1px solid black;
+}
+
+.hide{
+    display: none;
+}
+
+.textChange {
+}
