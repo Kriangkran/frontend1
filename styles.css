@@ -158,3 +158,101 @@ h1 {
     grid-area: 1 / 2 / span 4 / span 4;
 }
 
+body {
+    height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.flex-item {
+  display: flex;
+  padding: 8px 32px;
+  min-width: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature {
+    order: -1   ;
+}
+
+.button1 {
+    color: white;
+    display: inline-block;
+    min-width: 12px;
+    height: 32px;
+    background-color: hwb(207 11% 15%);
+}
+
+.flexgrid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "grid1 grid2 grid2 grid3"
+    "grid4 grid2 grid2 grid5"
+    ;
+    padding: 16px;
+    gap: 10px;
+}
+
+.item1, .item1-special {
+    padding: 32px;
+    border: solid black;
+}
+
+.item1-special {
+    grid-area:  grid2;
+}
+
+.flex-container1 {
+    display: flex;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: row wrap;
+    gap: 4px;
+}
+
+.flex-item1 {
+    display: flex;
+    padding: 8px 32px;
+    min-width: 100px;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .button2 {
+    color: black;
+    display: inline-block;
+    min-width: 12px;
+    height: 32px;
+    background-color: hsla(47, 87%, 53%, 0.808);
+    border: white;
+    border-radius: 15px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation: spin 1s linear infinite;
+    border-radius: 80px;
+}
+
+@keyframes spin {
+    0% {
+        transform: translate(0,0) rotate(0deg)
+    }
+    50% {
+        transform: translate(0,100px) rotate(180deg)
+    }
+    100% {
+        transform: translate(0,0px) rotate(360deg)
+    }
+}
