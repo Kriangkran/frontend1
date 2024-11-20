@@ -11,10 +11,6 @@ h1 {
     font-family: "Roboto", "Arial", sans-serif;
     }
 
-body {
-    background-color:  rgb(17, 245, 229);
-}
-
 #primary-link {
     font-size: 8px;
 }
@@ -118,5 +114,47 @@ body {
     display: none;
 }
 
-.textChange {
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 32px;
+    row-gap: 16px;
+    grid-template-areas: 
+    "header header header"
+    "menu main right"
+    "menu footer footer"
+    ;
+    padding: 16px;
 }
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 300px auto 200px;
+}
+
+.menu {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+}
+
+.right {
+    grid-area: right;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.item, .item-special {
+    background-color: blue;
+    padding: 32px;
+}
+
+.item-special {
+    grid-area: 1 / 2 / span 4 / span 4;
+}
+
